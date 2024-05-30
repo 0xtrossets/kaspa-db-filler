@@ -18,7 +18,6 @@ class Transaction(Base):
 
 Index("block_time_idx", Transaction.block_time)
 Index("idx_accepting_block", Transaction.accepting_block_hash)
-Index("idx_block_hash", Transaction.block_hash)
 
 
 class TransactionOutput(Base):
